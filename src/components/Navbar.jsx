@@ -37,8 +37,8 @@ const Navbar = () => {
                 onClick={handleClick}
                 defaultChecked={theme == "winter" ? false : true}
               />
-              <IoMoonOutline className=" swap-on fill-current w-8 h-8 " />
-              <IoSunnyOutline className="swap-off fill-current w-8 h-8" />
+              <IoSunnyOutline className=" swap-on fill-current w-8 h-8 " />
+              <IoMoonOutline className="swap-off fill-current w-8 h-8" />
             </label>
           </div>
           <Link className="btn btn-secondary" to="/create">

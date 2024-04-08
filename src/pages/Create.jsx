@@ -34,7 +34,6 @@ function Create() {
       body,
       image,
     };
-    console.log(newRecept);
     fetch("http://localhost:3000/recepts  ", {
       method: "POST",
       headers: {
