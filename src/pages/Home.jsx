@@ -1,24 +1,25 @@
-import React, { useEffect ,useState} from "react";
+
 import ReceptsList from "../components/ReceptsList";
+import { useFetch } from "../hooks/useFetch";
 const Home = () => {
-  const [recepts, setRecepts] = useState(null);
-  useEffect(() => {
-    fetch("http://localhost:3000/recepts")
-      .then((data) => {
-        return data.json();
-      })
-      .then((recepts) => {
-        setRecepts(recepts);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  },[]);
+  const {
+    data: recepts,
+    error,
+    isPending,
+  } = useFetch("http://localhost:3000/recepts");
+  
+  if (error) {
+    return <h1 className="text-center text-4xl mt-48 font-bold">{error}</h1>;
+  }
+  if (isPending) {
+    return (
+      <h1 className="text-center text-4xl mt-48 font-bold">{isPending}</h1>
+    );
+  }
   return (
     <div>
-      {recepts && <ReceptsList recepts={recepts}/>}
+      {recepts && <ReceptsList  recepts={recepts} />}
     </div>
   );
 };
-
 export default Home;

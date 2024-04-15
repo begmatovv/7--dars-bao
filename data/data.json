@@ -1,102 +1,6 @@
 {
   "recepts": [
     {
-      "id": "1",
-      "name": "Osh",
-      "ingredients": [
-        "Guruch",
-        "Sabzi",
-        "Piyoz",
-        "Go'sht",
-        "Zira",
-        "Suv"
-      ],
-      "image": "https://bibleoftaste.com/wp-content/uploads/2022/11/uzbek-pilaf.jpg?w=1200",
-      "time": "60 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "2",
-      "name": "Sho'rva",
-      "ingredients": [
-        "Kartoshka",
-        "Sabzi",
-        "Piyoz",
-        "Go'sht",
-        "Suv"
-      ],
-      "image": "https://canaan.travel/wp-content/uploads/2020/11/uzbekskoe-bludo-shurpa.jpg",
-      "time": "40 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "3",
-      "name": "Qozon kabob",
-      "ingredients": [
-        "Go'sht",
-        "Piyoz",
-        "Kartoshka",
-        "Suv"
-      ],
-      "image": "https://i.ytimg.com/vi/Odna7Z_mpOQ/sddefault.jpg",
-      "time": "45 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "4",
-      "name": "Norin",
-      "ingredients": [
-        "Go'sht",
-        "Hamir",
-        "Qazi",
-        "Zira"
-      ],
-      "image": "https://storage.kun.uz/source/9/k3lr9C7sT06WKvHU2TyR2v417ZcXfzRl.jpg",
-      "time": "120 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "5",
-      "name": "Mastava",
-      "ingredients": [
-        "Go'sht",
-        "Guruch",
-        "Kartoshka",
-        "Suv"
-      ],
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg8bJnsHsw9nccOBa3BqGH-QsTC7qVPAhJ_r1MeABU5QcX7vffRzl0ojV8YbCG9SzGPmyU0VKzW-ToMI44CWlo0Li0aAFroP_2EWEZ7XekrKJcT_aze-aD67YmsujnbM0Bc11WSWEEFtTs/s320/mastava.JPG",
-      "time": "30 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "6",
-      "name": "Honim",
-      "ingredients": [
-        "Go'sht",
-        "Hamir",
-        "Piyoz",
-        "Kartoshka",
-        "Sabzi"
-      ],
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdysh2FlGyQPjT8yTeHBN1car1Byg1oYxXHaT5gh5nAQBGuBLfUQrajai9jetOSfhWkE&usqp=CAU",
-      "time": "120 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "7",
-      "name": "Burger",
-      "ingredients": [
-        "Donar",
-        "Bulochka",
-        "Piyoz",
-        "Salat",
-        "Mayonez&Ketchup"
-      ],
-      "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/16:9/w_3743,h_2105,c_limit/Smashburger-recipe-120219.jpg",
-      "time": "20 minutes",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
       "id": "8",
       "name": "Pizza",
       "ingredients": [
@@ -135,13 +39,6 @@
       "image": "https://i.ytimg.com/vi/l636yg-glyk/maxresdefault.jpg",
       "time": "20 minutes",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ullam eos dignissimos aperiam rerum qui suscipit cum nobis, totam ea tenetur perferendis praesentium corporis possimus ducimus et minima voluptatum. Numquam mollitia culpa consectetur unde illum est aut dicta eligendi vero molestias impedit sint, maiores saepe voluptas necessitatibus excepturi ducimus repudiandae, non quidem nobis veritatis! Libero neque, cumque illo est corrupti eaque recusandae ipsum, ut debitis vitae molestias deleniti voluptates distinctio sapiente autem. Tempore aperiam minima sit atque, tempora doloribus blanditiis id ipsum. Distinctio quos nisi, totam sunt ex voluptatum? Neque alias laborum ipsum doloremque fuga earum in autem. Hic alias omnis facilis facere eum assumenda deleniti ad, maiores laudantium temporibus odio non, molestiae dolorum! Quo mollitia ex sapiente maiores excepturi?"
-    },
-    {
-      "id": "3f72",
-      "name": "сфывфы",
-      "time": "2",
-      "body": "фцвфыв",
-      "image": "data:image/png;base64,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"
     }
   ]
 }

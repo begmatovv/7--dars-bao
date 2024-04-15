@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { useFetch } from "../hooks/useFetch";
 function Create() {
+  const { data, postData } = useFetch("http://localhost:3000/recepts", "POST");
   const navigate = useNavigate();
   const [ingredient, setIngredient] = useState("");
   const [ingredients, setIngredients] = useState([]);
@@ -10,12 +12,12 @@ function Create() {
   const [image, setImage] = useState("");
   const [time, setTime] = useState("");
 
-
   const addIngredient = (e) => {
     e.preventDefault();
     if (ingredient.trim()) {
       if (!ingredients.includes(ingredient)) {
         setIngredients((prev) => {
+          toast.success("Added successfully");
           return [...prev, ingredient];
         });
       } else {
@@ -34,21 +36,14 @@ function Create() {
       body,
       image,
     };
-    fetch("http://localhost:3000/recepts  ", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newRecept),
-    })
-      .then(() => {
-        navigate("/");
-      })
-      .catch(() => {
-        toast.error("Error");
-      });
+    postData(newRecept);
   }
-  
+  useEffect(() => {
+    if (data) {
+      navigate("/");
+    }
+  }, [data]);
+
   return (
     <div className="w-full ">
       <h1 className="text-3xl text-center font-bold mb-10">
@@ -80,18 +75,24 @@ function Create() {
               type="text"
               placeholder="Type here"
               className="input input-bordered w-full max-w-xs"
-              onChange={(e) => setIngredient(e.target.value)}
+              onChange={(e) => {
+                setIngredient(e.target.value);
+              }}
               value={ingredient}
             />
-            <button onClick={addIngredient} className="btn btn-secondary">
+            <button onClick={addIngredient} className="btn-secondary btn">
               Add
             </button>
           </div>
-          <div className="mt-1">
+          <div>
             <p>
-              Ingredients:
-              {ingredients.map((ing) => {
-                return <span key={ing}>{ing},</span>;
+              Ingredients:{" "}
+              {ingredients.map((ing, index) => {
+                if (index === ingredients.length - 1) {
+                  return <span key={ing}>{ing}</span>;
+                } else {
+                  return <span key={ing}>{ing}, </span>;
+                }
               })}
             </p>
           </div>
